@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer ejercicio</title>
+</head>
+
+<body>
+ <img src="./assets/img/dog.jpg" alt="">   
+ <script>
+    let borderShow = false
+    const img = document.querySelector("img")
+    img.addEventListener("click", () => {
+        if (borderShow === false) {
+        img.style.border = "solid red 2px"
+        borderShow = true
+   }
+    else {
+        img.style.border = "none"
+        borderShow = false
+    }
+})
+</script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+* {
+    margin: 0
+}
+body{
+    background-color:rgb(243, 196, 109);
+}
+h1{
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    display:flex;
+    margin-top: 10rem;
+    justify-content:space-around;
+}
+.card-sticker1{
+    width:300px;
+    height:300px;
+    margin-left:50px;
+    background-color:rgb(243, 196, 109);
+}
+.img-sticker1{
+    width:300px;
+    height: 300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#st1{
+    background-color:red;
+    margin-left:70px;
+}
+.card-sticker2{
+    width:300px;
+    height:300px;
+    margin-left:50px;
+    background-color:rgb(243, 196, 109);
+}
+.img-sticker2{
+    width:200px;
+    height: 200px;
+    margin-top:50px;
+    margin-left:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(243, 196, 109);
+
+}
+#st2{
+    background-color:red;
+    margin-left:70px;
+    margin-top:50px;
+}
+.card-sticker3{
+    width:300px;
+    height:300px;
+    margin-left:50px;
+    background-color:rgb(243, 196, 109);
+}
+.img-sticker3{
+    width:200px;
+    height: 200px;
+    margin-top:50px;
+    margin-left:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(243, 196, 109);
+
+}
+#st3{
+    background-color:red;
+    margin-left:70px;
+    margin-top:50px;
+}
+
+button{
+margin-top:8%;
+margin-left:50%;
+width:100px;
+height:30px;
+background-color:Red;
+font-weight: bold;
+}
+#result{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+

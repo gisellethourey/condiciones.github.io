@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <h1>Ingresa el password</h1>
+<div>
+    <select name= "" id="">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+</select>
+
+    <select name= "" id="">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        </select>
+
+        <select name="" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            </select>
+        </div>
+    <button>Ingresar</button>
+    <p id= "message"><p>
+        <script>
+            const btn = document.querySelector(" button")
+            const message = document.querySelector("#message")
+            btn.addEventListener("click", () => {
+                const listSelects = document.querySelectorAll("select")
+                let value1= listSelects[0].value
+                let value2= listSelects[1].value
+                let value3= listSelects[2].value
+                let password= value1 + value2 + value3 
+                if (password ==="911") {
+                    message.innerHTML = "password 1 correcto"
+                }
+                else if (password === "714") {
+                    message.innerHTML = "password 2 es correcto"
+                }
+                else {
+                    message.innerHTML = "password incorrecto"
+                }
+            })
+        </script>
+           
+</body>
+</html>

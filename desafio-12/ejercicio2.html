@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo Ejercicio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>La mejor página de Stickers</h1>
+    <div class="container">    
+    <div class="card-sticker1">
+    <img src="./assets/img/sticker1.webp" class="img-sticker1" alt="">
+    <input type="text" id="st1">
+    </div>
+    <div class="card-sticker2">
+        <img src="./assets/img/sticker2.png" class="img-sticker2" alt="">
+        <input type="text" id="st2">
+        <p id="result"></p>
+    </div>
+    <div class="card-sticker3">
+        <img src="./assets/img/sticker3.png"  class="img-sticker3"  alt="">
+        <input type="text" id="st3">
+    </div>
+</div>
+ <button onclick="
+    let st1 = Number(document.querySelector('#st1').value)
+    let st2 = Number(document.querySelector('#st2').value)
+    let st3 = Number(document.querySelector('#st3').value)
+    let suma = st1 + st2 + st3
+    let result = document.querySelector('#result')
+    if (suma <=10) {
+        result.innerHTML = 'Llevas' + ' ' + suma + ' ' + 'stickers'
+    }
+    else {
+        result.innerHTML = 'Llevas' + ' ' + 'demasiados' + ' ' + 'stickers'
+    }
+    ">Verificar</button>
+</body>
+</html>
